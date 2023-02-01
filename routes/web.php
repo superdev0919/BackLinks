@@ -51,4 +51,4 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('{name?}', 'JoshController@showView');
+Route::get('{name?}', 'UserController@showView');
