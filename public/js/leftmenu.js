@@ -1,0 +1,1 @@
+"use strict";$((function(){$(window).width()<=992&&$(".wrapper").addClass("hide_menu"),$("[data-toggle='offcanvas'].sidebar-toggle").on("click",(function(e){e.preventDefault(),$(".wrapper").toggleClass("hide_menu")})),$("#menu").metisMenu(),$("[data-toggle='popover']").popover(),setTimeout((function(){$("#notific").remove()}),5e3)}));
